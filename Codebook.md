@@ -2,14 +2,14 @@
 
 The orinal dataset comprises a number of files and folders, but the ones used for this project are as follows:
 
-1. From the parent directory:
+1. From the parent directory (data):
 
   * "features.txt": Lists all the variables/features which will form the column headings (The information about the features is given in the "features_info.txt" file if required)
   
   * "activity_labels.txt": Links the class labels with their activity name
 
 
-2. From the train directory (under the parent directory): 
+2. From the train directory (under the parent "data" directory): 
 
   * "X_train.txt": The trainig data set
   

@@ -12,25 +12,25 @@ rm(list = ls())
 activity_df <- tbl_df(read.table("activity_labels.txt", header = FALSE, sep = " ", col.names = c("ActivityLabel", "ActivityName"), na.strings = "NA", stringsAsFactors = FALSE))
 
 # Read the "X_test.txt" dataset
-xtest_df <- tbl_df(read.table("test/X_test.txt", header = FALSE, na.strings = "NA", stringsAsFactors = FALSE))
+xtest_df <- tbl_df(read.table("data/test/X_test.txt", header = FALSE, na.strings = "NA", stringsAsFactors = FALSE))
 
 # Read the "y_test.txt" dataset
-ytest_df <- tbl_df(read.table("test/y_test.txt", header = FALSE, na.strings = "NA", stringsAsFactors = FALSE))
+ytest_df <- tbl_df(read.table("data/test/y_test.txt", header = FALSE, na.strings = "NA", stringsAsFactors = FALSE))
 
 # Read the "X_train.txt" dataset
-xtrain_df <- tbl_df(read.table("train/X_train.txt", header = FALSE, na.strings = "NA", stringsAsFactors = FALSE))
+xtrain_df <- tbl_df(read.table("data/train/X_train.txt", header = FALSE, na.strings = "NA", stringsAsFactors = FALSE))
 
 # Read the "y_train.txt" dataset
-ytrain_df <- tbl_df(read.table("train/y_train.txt", header = FALSE, na.strings = "NA", stringsAsFactors = FALSE))
+ytrain_df <- tbl_df(read.table("data/train/y_train.txt", header = FALSE, na.strings = "NA", stringsAsFactors = FALSE))
 
 # Read the "subject_train.txt" dataset
-strain_df <- tbl_df(read.table("train/subject_train.txt", header = FALSE, na.strings = "NA", stringsAsFactors = FALSE))
+strain_df <- tbl_df(read.table("data/train/subject_train.txt", header = FALSE, na.strings = "NA", stringsAsFactors = FALSE))
 
 # Read the "subject_test.txt" dataset
-stest_df <- tbl_df(read.table("test/subject_test.txt", header = FALSE, na.strings = "NA", stringsAsFactors = FALSE))
+stest_df <- tbl_df(read.table("data/test/subject_test.txt", header = FALSE, na.strings = "NA", stringsAsFactors = FALSE))
 
 # Read the "features.txt" dataset
-features_df <- tbl_df(read.table("features.txt", header = FALSE, na.strings = "NA", stringsAsFactors = FALSE))
+features_df <- tbl_df(read.table("data/features.txt", header = FALSE, na.strings = "NA", stringsAsFactors = FALSE))
 
 
 
